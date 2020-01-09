@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="index.css" rel="stylesheet" type="text/css">
+    <title>API Practice Site</title>
+</head>
+<body>
+    <section>
+        <h1>API Practice</h1>
+        <form action="#" class="form">
+            <fieldset name="author-search">
+                <legend>Search For Books By Auther</legend>
+                <label for="author">Author: </label>
+                <input id="author" class="js-author" type="text" placeholder="Tolkien" required>
+                <button type="submit">Find!</button>
+            </fieldset>
+        </form>
+    </section>
+    <section class="hidden" id="results">
+
+    </section>
+    <section class="hidden" id="js-error">
+
+    </section>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" 
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous">
+    </script>
+    <script src="index.js"></script>
+</body>
+</html>
